@@ -28,3 +28,8 @@ int DaysInYearRange(int year1, int year2)
 		sum += DaysInYear(i);
 	return sum;
 }
+
+int SeconsInHours(int hs)
+{
+	return 3600 * hs;
+}
