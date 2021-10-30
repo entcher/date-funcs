@@ -16,4 +16,7 @@ int main()
 
 	assert(DaysInYearRange(1, 2) == 365 + 365);
 	assert(DaysInYearRange(400, 401) == 366 + 365);
+
+	assert(SeconsInHours(2) == 2 * 3600);
+	assert(SeconsInHours(1) == 1 * 3600);
 }
