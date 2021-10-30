@@ -22,6 +22,14 @@ int DaysInYear(int year)
 		return 365;
 }
 
+int DaysInYearRange(int year1, int year2)
+{
+	int sum = 0;
+	for (int i = year1; i <= year2; i++)
+		sum += DaysInYear(i);
+	return sum
+}
+
 int main()
 {
 
