@@ -14,6 +14,14 @@ int LaterInYear(int d1, int d2)
 		return d2;
 }
 
+int DaysInYear(int year)
+{
+	if (IsLeapYear(year))
+		return 366;
+	else
+		return 365;
+}
+
 int main()
 {
 
